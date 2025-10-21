@@ -285,8 +285,10 @@ body {
   gap: 28px;
   color: var(--color-gray);
 }
-.sidebar__item-link:hover path {
+.sidebar__item-link:hover {
   color: var(--color-orange);
+}
+.sidebar__item-link:hover path {
   fill: currentColor;
 }
 .sidebar__footer {

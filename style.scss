@@ -264,8 +264,10 @@ body {
         gap: 28px;
         color: var(--color-gray)
     }
-    &__item-link:hover path {
-        color: var(--color-orange); 
+    &__item-link:hover {
+        color: var(--color-orange);                            
+    }
+    &__item-link:hover path {         
         fill: currentColor;                     
     }
     &__item-icon{              
